@@ -9,8 +9,8 @@ const {
   handleSignin,
   handleSignup,
   handleGetUsers,
-  handleSecret
-} = require('./handlers');
+  handleSecret,
+} = require('./handlers.js');
 
 authRouter.post('/signup', handleSignup);
 authRouter.post('/signin', basicAuth, handleSignin);
