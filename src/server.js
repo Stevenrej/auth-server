@@ -13,8 +13,6 @@ const authRoutes = require('./auth/router/index.js');
 // Prepare the express app
 const app = express();
 
-
-
 // App Level MW
 app.use(cors());
 app.use(morgan('dev'));
@@ -31,9 +29,9 @@ app.use(errorHandler);
 
 module.exports = {
   server: app,
-  startup: (PORT) => {
-    app.listen(PORT, function() {
-      console.log(`Server Up on ${PORT}`);
+  start: (port) => {
+    app.listen(port, () => {
+      console.log(`Server Up on ${port}`);
     });
   },
 };

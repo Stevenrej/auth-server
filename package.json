@@ -31,13 +31,5 @@
     "sequelize-cli": "^6.4.1",
     "sqlite3": "^5.1.1",
     "supertest": "^6.2.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Stevenrej/auth-server.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Stevenrej/auth-server/issues"
-  },
-  "homepage": "https://github.com/Stevenrej/auth-server#readme"
+  }
 }
